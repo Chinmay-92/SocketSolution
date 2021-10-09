@@ -16,7 +16,7 @@ const createClients = (count, timeout) => {
       })
       setInterval(() => {
         socket[i].emit('data', 'Message from client #' + socket[i].client);
-      }, timeout);
+      }, timeout * 1000);
     });
 
     socket[i].on('disconnect', (reason) => {

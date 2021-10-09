@@ -12,7 +12,8 @@
     "url": "git_url"
   },
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "start": "node client.js"
   },
   "dependencies": {
     "prompt": "^1.2.0",
