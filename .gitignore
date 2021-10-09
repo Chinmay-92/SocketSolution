@@ -1,2 +1,5 @@
-.DS_store
-node_modules
+Server/.DS_store
+Server/node_modules
+
+Client/.DS_store
+Client/node_modules
