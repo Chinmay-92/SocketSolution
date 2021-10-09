@@ -13,9 +13,9 @@ npm install
 npm start
 After that =>
 A prompt will appear at Client's terminal asking for 2 parameters
-1. # of Clients
+1st # of Clients
 prompt: clients: ENTER A VALUE (Example 2).  **#**
-2. X Seconds interval
+2nd X Seconds interval
 prompt: timeout: ENTER A VALUE (Example 5).  **X**
 
 
