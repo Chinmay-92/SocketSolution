@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "node.js realtime server",
+  "files": [
+    "dist/"
+  ],
+  "type": "commonjs",
+  "main": "./server.js",
+  "repository": {
+    "type": "git",
+    "url": "git_url"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0",
+    "socket.io-client": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.2.5"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}

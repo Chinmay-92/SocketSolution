@@ -1,0 +1,26 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "node.js client",
+  "files": [
+    "dist/"
+  ],
+  "type": "commonjs",
+  "main": "./server.js",
+  "repository": {
+    "type": "git",
+    "url": "git_url"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "dependencies": {
+    "prompt": "^1.2.0",
+    "socket.io": "^4.2.0",
+    "socket.io-client": "^4.2.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
